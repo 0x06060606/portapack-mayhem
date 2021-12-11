@@ -1,6 +1,6 @@
 - pipeline: "Build firmware"
   trigger_mode: "ON_EVERY_PUSH"
-  ref_name: "master"
+  ref_name: "next"
   ref_type: "BRANCH"
   auto_clear_cache: true
   trigger_condition: "ALWAYS"
